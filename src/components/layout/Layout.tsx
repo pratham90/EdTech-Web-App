@@ -1,5 +1,5 @@
 import React from 'react';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from '../contexts/AuthContext';
 import { Header } from './Header';
 import { StudentDashboard } from '../dashboard/StudentDashboard';
 import { TeacherDashboard } from '../dashboard/TeacherDashboard';

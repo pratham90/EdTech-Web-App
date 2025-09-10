@@ -10,7 +10,7 @@ import {
   DropdownMenuTrigger 
 } from '../ui/dropdown-menu';
 import { Badge } from '../ui/badge';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from '../contexts/AuthContext';
 import { 
   Brain, 
   LogOut, 
@@ -28,14 +28,15 @@ export function Header() {
 
   return (
     <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="flex h-16 items-center px-6">
+      
+      <div className="flex h-16 items-around px-6">
         {/* Logo and Brand */}
         <div className="flex items-center space-x-2">
           <div className="p-2 bg-primary rounded-lg">
             <Brain className="h-6 w-6 text-primary-foreground" />
           </div>
           <div>
-            <h1 className="text-xl">EduTech Platform</h1>
+            <h1 className="text-xl">EduTech  Platform</h1>
             <Badge variant="secondary" className="text-xs">
               {user.role === 'teacher' ? 'Teacher Portal' : 'Student Portal'}
             </Badge>

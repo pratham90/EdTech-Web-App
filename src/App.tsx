@@ -1,5 +1,5 @@
 import React from 'react';
-import { AuthProvider, useAuth } from './contexts/AuthContext';
+import { AuthProvider, useAuth } from './components/contexts/AuthContext';
 import { AuthForm } from './components/auth/AuthForm';
 import { Layout } from './components/layout/Layout';
 import { Toaster } from './components/ui/sonner';

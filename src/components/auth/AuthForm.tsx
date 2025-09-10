@@ -5,8 +5,8 @@ import { Label } from '../ui/label';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../ui/tabs';
 import { RadioGroup, RadioGroupItem } from '../ui/radio-group';
-import { useAuth } from '../../contexts/AuthContext';
-import { UserRole } from '../../types/auth';
+import { useAuth } from '../contexts/AuthContext';
+import { UserRole } from '../../pages/types/auth';
 import { GraduationCap, Users, BookOpen, Brain } from 'lucide-react';
 
 export function AuthForm() {
