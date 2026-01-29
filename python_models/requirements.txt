@@ -1,0 +1,13 @@
+flask==3.0.0
+flask-cors==4.0.0
+openai==1.12.0
+python-dotenv==1.0.0
+pymongo==4.6.1
+numpy==1.26.3
+pdfplumber==0.10.3
+openai-whisper==20231117
+spacy==3.7.2
+nltk==3.8.1
+reportlab==4.0.7
+werkzeug==3.0.1
+
